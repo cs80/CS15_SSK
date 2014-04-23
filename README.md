@@ -10,7 +10,7 @@ Replacement SSK board for Yamaha CS15 synthesizer
 
   Notes: the board is sized to work as a drop-in replacement with the mounting holes and
   headers positioned in the expected locations.  I might make a more compact general
-  use version for 61 keys. The version allow the use of one of two opto types in the
+  use version for 61 keys. This version allow the use of one of two opto types in the
   gate circuit: Sharp PC817 or PC829.  I had a bunch of the latter which is why they
   were made an option.
   
