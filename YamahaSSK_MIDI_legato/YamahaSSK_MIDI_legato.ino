@@ -178,7 +178,7 @@ PROGMEM prog_uint8_t noteMap[] = { oct0, noteC, // lowest MIDI note (MIDI key co
 
 // Static variables
 
-volatile  uint8_t  tickCount = 0; // Timer0 set for 1ms interrupts, tally them
+volatile  uint8_t  tickCount = 0; // Timer1 set for 1ms interrupts, tally them
 
 // Some of these can probably be shared but for now maintain separate key and midi variables
 byte channel = 1; // MIDI channel, default is 1.
