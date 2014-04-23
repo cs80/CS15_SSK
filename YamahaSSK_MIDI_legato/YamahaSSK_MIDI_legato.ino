@@ -30,7 +30,7 @@
    Various Arduino and C folks -- thanks!   
 
    Revision: 1.07.13
-   LAST MODIFIED 22-APR-2014 00:40
+   LAST MODIFIED 23-APR-2014 07:08
    (Code rewrite to use common buffer and note table schemes)
    
    Emulates the 37-note keyboard scanner and V/Hz DAC of the Yamaha YM24800
@@ -202,7 +202,8 @@ byte keyNoteToRemove = 255;
 // fighting if the CL key happens to be pressed while clocking data at the 74HC595.
 // (A 1K resistor (R17) is also used to buffer this possible condition.)
 // Board rev 1.1 will use LSB to read six DIP switches for MIDI channel# and modes.
-int bits[] = { B00000011, B00000101, B00001001, B10010001, B10100001, B11000001 };
+int bits[] = { B00000011, B00000101, B00001001, B10010001, B10100001, B11000001 }; // v1.0x
+// int bits[] = { B00000010, B00000100, B00001000, B10010000, B10100000, B11000000 }; v1.1x
 
 // scanKeybed places an active strobe on keybed group "keygroup"
 // A 74HC595 is used as a cheap 8-bit output port.
