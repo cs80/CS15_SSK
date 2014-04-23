@@ -14,8 +14,6 @@ Replacement SSK board for Yamaha CS15 synthesizer
   gate circuit: Sharp PC817 or PC829.  I had a bunch of the latter which is why they
   were made an option.
   
-  Scott Rider
-  The Old Crow
-  22-APR-2014
-  /**/
+  Scott Rider -- The Old Crow -- oldcrow@oldcrows.net -- 22-APR-2014
+
   
